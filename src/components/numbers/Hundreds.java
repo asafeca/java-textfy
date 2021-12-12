@@ -3,11 +3,9 @@ package components.numbers;
 import factory.BaseFactory;
 
 public class Hundreds implements BaseFactory {
-    private  Float value;
     private String template;
     private String stringValue="";
      public Hundreds(Float value, String template){
-         this.value = value;
          this.template = template;
  
      }

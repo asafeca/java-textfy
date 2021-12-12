@@ -3,7 +3,6 @@ package service;
 import factory.BaseFactory;
 
 public class NumberConversion implements BaseFactory {
-    private Float value;
     private String stringValue = "";
     private String template;
     
